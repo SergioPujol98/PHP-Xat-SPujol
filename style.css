@@ -1,0 +1,45 @@
+* {
+ box-sizing: border-box;
+ font-family: Verdana, Geneva, sans-serif;
+ margin: 0;
+}
+
+#titol{
+ color: white;
+ margin : 12px;   
+}
+
+body{
+ background-image: url("Verde.jpg");   
+ background-size: cover;  
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+#missatges p:nth-child(odd) {
+ background-color : #CAFAFE;
+ padding : 4px 12px;
+}
+
+#missatges p {
+ background-color : #97CAEF;
+ padding: 4px 12px;
+}
+
+#errores p {
+ background-color: #FC4445;
+ padding: 4px 12px;
+}
+
+#formulari {
+background-color : steelblue;
+padding: 4px 12px;
+text-align : center;
+}
+
+#inform {
+width: 90%;
+margin-bottom: 2%;
+}
+
+
